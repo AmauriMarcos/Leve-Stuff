@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.scrollbar-hide {
+    scrollbar-width: thin; /* For Firefox */
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    width: 2px; /* For Chrome, Safari, and Edge */
+    height: 2px;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
